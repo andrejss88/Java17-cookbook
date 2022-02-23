@@ -1,0 +1,66 @@
+
+Convert old Date to LocalDate
+-----------------------
+
+
+--------- DATES ONLY ---------
+
+
+Convert a String to a LocalDate
+-----------------------
+
+Derive a difference between two dates.
+-----------------------
+
+This may be useful to e.g. calculate the age of a person or displaying messages “You’ve last visited us X days/months ago”
+
+
+Find the first and last day of the month.
+-----------------------
+
+Given an “Sale ends at the end of month” campaign, this could be used in messages such as “Hurry! The sale ends in X days!”
+
+
+Compare two dates:
+-----------------------
+
+“If today is before {future date}, then do X. If today equals or after {future date}, then do Y”
+
+
+Add or subtract dates
+-----------------------
+
+a common exercise in e.g. a task scheduler, when one wants to create a reminder or an appointment “2 days or 3 weeks from now”.
+
+
+Format (localize) dates
+-----------------------
+
+
+--------- DATES AND TIMES ---------
+
+Of course, time within a single day is important in our lives too. Show how to:
+
+
+Get the current time.
+-----------------------
+
+Highlight that this is time zone dependent. This is frequently used together with the below.
+
+Calculate the start and end of the day.
+-----------------------
+
+May be useful in e.g. “Hurry! Only x hours left until sale ends (midnight)”.
+
+
+Implement a reusable code execution a timer (how long a particular piece of code took to execute)
+
+Calculate Arrival Time	-> CalculateArrivalTime
+---------------------------------------
+
+	Flight takes off at X in Zone ZX
+	Flight arrives at Y in Zone ZY
+
+
+Demo App
+-----------------------

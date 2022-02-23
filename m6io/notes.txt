@@ -1,0 +1,20 @@
+
+How to print the current path, the project path, the root path, etc. - find on SO
+
+Reader/Write for characters
+InputStream OutputStreams for binary
+
+File f = new File("dir/file.txt");
+
+	Doesn't create an actual file
+	May create both dir or file
+
+File is a class, platform independent
+Path is an interface, has stuff
+
+Avoid using old File, prefer Path
+It's possible to convert between the two
+
+
+https://stackoverflow.com/questions/6903335/java-path-vs-file
+https://www.baeldung.com/java-path-vs-file

@@ -1,0 +1,59 @@
+------- STRING to NUMBER -------
+
+Converting Strings to Numbers
+	-> parseInt vs valueOf()
+
+Check if String is a number
+	-> regex vs. loop vs. try-catch vs. NumberUtils
+
+------- FORMATTING -------
+
+Formatting Doubles
+	-> FormattingDoubles (code done)
+	-> DecimalFormat + NumberFormat with Locale
+
+Format numbers with CompactNumberFormat
+	-> CompactFormatDoubles (code done)
+
+Formatting with correct plurals
+	-> start with simple ternary
+	-> evolve into inheritance for 3+ options
+
+------- ROUNDING -------
+
+Rounding with RoundingModes
+
+
+------- COMPARING -------
+
+Comparing integers
+
+	-> == vs. Integer.compare
+	->
+
+Comparing Floating-Point Numbers
+
+	-> ah, but one does not simple == doubles
+	-> take from Best Practices
+
+------- BIG DECIMAL -------
+
+Using really big numbers
+
+	-> Use BigDecimal
+
+------- RANDOM -------
+
+Randomly generating numbers
+
+	-> how NOT to do it
+    -> Random vs ThreadLocalRandom
+	-> within range
+	-> Secure Random number
+
+------- Demo App -------
+
+Start with a list of numbers strings
+    -> parse them to ints
+    -> apply several Compact formats (US, EMEA, Asia?)
+    -> Output localized "There are {x} people living in {city}"
